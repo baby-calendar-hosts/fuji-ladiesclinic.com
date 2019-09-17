@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c06de057e7d3bdc4923861dc11e9f4e",
+    "content-hash": "f6a61479d5f961c03ccb455201ed7588",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -294,8 +294,8 @@
             "authors": [
                 {
                     "name": "Onni Hakala",
-                    "role": "Developer",
-                    "email": "onni@koodimonni.fi"
+                    "email": "onni@koodimonni.fi",
+                    "role": "Developer"
                 }
             ],
             "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
@@ -738,6 +738,42 @@
             "homepage": "https://wordpress.org/plugins/breadcrumb-navxt/"
         },
         {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7-add-confirm",
+            "version": "5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7-add-confirm/",
+                "reference": "tags/5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7-add-confirm.5.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7-add-confirm/"
+        },
+        {
             "name": "wpackagist-plugin/custom-post-type-permalinks",
             "version": "3.3.1",
             "source": {
@@ -826,6 +862,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-admin-ui-customize",
+            "version": "1.5.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-admin-ui-customize/",
+                "reference": "tags/1.5.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-admin-ui-customize.1.5.12.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-admin-ui-customize/"
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
