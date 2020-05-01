@@ -200,6 +200,7 @@
     {
       "type": "package",
       "package": {
+<<<<<<< HEAD
         "name": "koodimonni-plugin-language/contact-form-7-ja",
         "type": "wordpress-language",
         "version": "5.1.7",
@@ -207,6 +208,14 @@
           "type": "zip",
           "url": "https://downloads.wordpress.org/translation/plugin/contact-form-7/{%version}/ja.zip",
           "reference": "master"
+=======
+        "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
+        "type": "wordpress-language",
+        "version": "0.9.0.5",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/{%version}/ja.zip"
+>>>>>>> upstream/master
         }
       }
     }
@@ -233,6 +242,7 @@
     "koodimonni-plugin-language/my-calendar-ja": "*",
     "koodimonni-plugin-language/tablepress-ja": "*",
     "koodimonni-plugin-language/wordpress-importer-ja": "*",
+    "koodimonni-plugin-language/wp-fastest-cache-ja": "*",
     "koodimonni-plugin-language/wp-super-cache-ja": "*",
     "wpackagist-plugin/adminimize": "*",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
@@ -254,6 +264,7 @@
     "wpackagist-plugin/wp-dashboard-notes": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
     "wpackagist-plugin/wp-multibyte-patch": "*",
+    "wpackagist-plugin/wp-fastest-cache": "*",
     "wpackagist-plugin/wp-super-cache": "*"
   },
   "require-dev": {
