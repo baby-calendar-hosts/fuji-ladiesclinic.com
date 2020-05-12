@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8122ca4962ad209a43d9a289e1c8086a",
+    "content-hash": "eb84a8df0c3889b74551bc2d88b7024d",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -372,10 +372,10 @@
         },
         {
             "name": "koodimonni-plugin-language/wp-fastest-cache-ja",
-            "version": "0.9.0.5",
+            "version": "0.9.0.6",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/0.9.0.5/ja.zip"
+                "url": "https://downloads.wordpress.org/translation/plugin/wp-fastest-cache/0.9.0.6/ja.zip"
             },
             "type": "wordpress-language"
         },
@@ -1250,24 +1250,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-multibyte-patch/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-super-cache",
-            "version": "1.7.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-super-cache/",
-                "reference": "tags/1.7.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-super-cache.1.7.1.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-super-cache/"
         }
     ],
     "packages-dev": [
